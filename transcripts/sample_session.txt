@@ -1,0 +1,38 @@
+
+[user 1] What should I watch tonight?
+Based on your taste (you rated Seven (a.k.a. Se7en), Usual Suspects, The, Bottle Rocket highly), here are 10 picks:
+   1. Ferris Bueller's Day Off (1986) — liked by users with similar taste
+   2. Godfather, The (1972) — liked by users with similar taste; matches themes you rate highly; highly rated overall
+   3. Die Hard (1988) — liked by users with similar taste
+   4. Godfather: Part II, The (1974) — liked by users with similar taste; highly rated overall
+   5. Jaws (1975) — liked by users with similar taste; matches themes you rate highly
+   6. Fish Called Wanda, A (1988) — liked by users with similar taste; matches themes you rate highly
+   7. 2001: A Space Odyssey (1968) — liked by users with similar taste
+   8. Raising Arizona (1987) — liked by users with similar taste; matches themes you rate highly
+   9. Blade Runner (1982) — liked by users with similar taste; highly rated overall
+  10. O Brother, Where Art Thou? (2000) — liked by users with similar taste; matches themes you rate highly
+
+[user 1] What do people with taste like mine think of Pulp Fiction?
+People with taste like yours rate **Pulp Fiction (1994)** about **5.0/5** — 40 taste-neighbours rated it (avg 4.57).
+
+[user 1] What do people like me think of The Matrix?
+I can't answer that: 'The Matrix' is not in the catalogue.
+
+[user 999999] What should I watch tonight?
+I can't help with that: user 999999 not found.
+
+[user 414] Recommend me something to watch
+Based on your taste (you rated American President, The, Twelve Monkeys (a.k.a. 12 Monkeys), Babe highly), here are 10 picks:
+   1. Shining, The (1980) — liked by users with similar taste; highly rated overall
+   2. Psycho (1960) — liked by users with similar taste
+   3. From Dusk Till Dawn (1996) — liked by users with similar taste; matches themes you rate highly
+   4. Annie Hall (1977) — liked by users with similar taste; matches themes you rate highly
+   5. Harry Potter and the Prisoner of Azkaban (2004) — liked by users with similar taste; matches themes you rate highly
+   6. Birds, The (1963) — liked by users with similar taste; matches themes you rate highly
+   7. Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006) — liked by users with similar taste
+   8. Halloween (1978) — liked by users with similar taste; matches themes you rate highly
+   9. Manhattan (1979) — matches themes you rate highly
+  10. Blood Simple (1984) — matches themes you rate highly
+
+[user 1] What's my taste profile?
+User 1: 190 ratings, average 4.33. Favourite genres: Adventure, Action, Drama, Comedy, Thriller. Top-rated: Seven (a.k.a. Se7en) (5.0), Usual Suspects, The (5.0), Bottle Rocket (5.0), Rob Roy (5.0), Canadian Bacon (5.0).

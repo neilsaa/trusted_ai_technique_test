@@ -1,0 +1,204 @@
+{
+  "config": {
+    "test_users": 150,
+    "val_users": 75,
+    "seed": 42,
+    "best_weights": [
+      0.0,
+      0.75,
+      0.15
+    ],
+    "holdout_frac": 0.2,
+    "ease_best_l2": 250.0
+  },
+  "ranking": {
+    "random": {
+      "recall@5": 0.0,
+      "hit@5": 0.0,
+      "ndcg@5": 0.0,
+      "recall@10": 0.00019133725820016822,
+      "hit@10": 0.013333333333333334,
+      "ndcg@10": 0.0010117479405202358,
+      "recall@20": 0.0043116868207404,
+      "hit@20": 0.06,
+      "ndcg@20": 0.0033564918431077157
+    },
+    "popular": {
+      "recall@5": 0.028048090313569776,
+      "hit@5": 0.20666666666666667,
+      "ndcg@5": 0.0555634480608665,
+      "recall@10": 0.051619851046143396,
+      "hit@10": 0.28,
+      "ndcg@10": 0.06308180232797157,
+      "recall@20": 0.08087556644869881,
+      "hit@20": 0.38,
+      "ndcg@20": 0.07225377698023756
+    },
+    "genre-match": {
+      "recall@5": 0.013040703890946954,
+      "hit@5": 0.13333333333333333,
+      "ndcg@5": 0.03621124164363868,
+      "recall@10": 0.020807930856434675,
+      "hit@10": 0.18666666666666668,
+      "ndcg@10": 0.03435138284617275,
+      "recall@20": 0.04244578063513642,
+      "hit@20": 0.3,
+      "ndcg@20": 0.03921931179004306
+    },
+    "content-only": {
+      "recall@5": 0.006666666666666667,
+      "hit@5": 0.006666666666666667,
+      "ndcg@5": 0.006666666666666667,
+      "recall@10": 0.010018587989559348,
+      "hit@10": 0.04,
+      "ndcg@10": 0.009587894176287018,
+      "recall@20": 0.019051090061955038,
+      "hit@20": 0.08,
+      "ndcg@20": 0.012237448787658742
+    },
+    "cf-only": {
+      "recall@5": 0.07134891427830481,
+      "hit@5": 0.35333333333333333,
+      "ndcg@5": 0.13563258035930684,
+      "recall@10": 0.11187509810527535,
+      "hit@10": 0.46,
+      "ndcg@10": 0.13544562906748123,
+      "recall@20": 0.16442912167846757,
+      "hit@20": 0.5866666666666667,
+      "ndcg@20": 0.14554004995728725
+    },
+    "hybrid": {
+      "recall@5": 0.07122833190772243,
+      "hit@5": 0.3466666666666667,
+      "ndcg@5": 0.1354424760879266,
+      "recall@10": 0.10391271442416004,
+      "hit@10": 0.44,
+      "ndcg@10": 0.13276114516065324,
+      "recall@20": 0.16095086102468287,
+      "hit@20": 0.5666666666666667,
+      "ndcg@20": 0.14415742413949162
+    },
+    "ease": {
+      "recall@5": 0.06333181877875613,
+      "hit@5": 0.32666666666666666,
+      "ndcg@5": 0.11632936321791355,
+      "recall@10": 0.11363090407626525,
+      "hit@10": 0.48,
+      "ndcg@10": 0.12640601976371618,
+      "recall@20": 0.16685970448305515,
+      "hit@20": 0.5733333333333334,
+      "ndcg@20": 0.13618502851901038,
+      "_best_l2": 250.0
+    }
+  },
+  "content_ablation": {
+    "plain": {
+      "ndcg@5": 0.0,
+      "ndcg@10": 0.001934577355093492,
+      "ndcg@20": 0.0065477161486496875,
+      "recall@5": 0.0,
+      "recall@10": 0.0011296991006704597,
+      "recall@20": 0.017572915458780435,
+      "median_rank_of_liked": 2249.4166666666665
+    },
+    "weighted": {
+      "ndcg@5": 0.006666666666666667,
+      "ndcg@10": 0.009587894176287018,
+      "ndcg@20": 0.012237448787658742,
+      "recall@5": 0.006666666666666667,
+      "recall@10": 0.010018587989559348,
+      "recall@20": 0.019051090061955038,
+      "median_rank_of_liked": 2260.3566666666666
+    },
+    "clustered": {
+      "ndcg@5": 0.006666666666666667,
+      "ndcg@10": 0.009587894176287018,
+      "ndcg@20": 0.012237448787658742,
+      "recall@5": 0.006666666666666667,
+      "recall@10": 0.010018587989559348,
+      "recall@20": 0.019051090061955038,
+      "median_rank_of_liked": 2260.3966666666665
+    }
+  },
+  "rating_prediction": {
+    "raw": {
+      "MAE": 0.6923878608499943,
+      "coverage": 0.8608695652173913,
+      "n_answered": 3465,
+      "n_total": 4025
+    },
+    "pearson": {
+      "MAE": 0.684684218378628,
+      "coverage": 0.84472049689441,
+      "n_answered": 3400,
+      "n_total": 4025
+    },
+    "pearson_shrunk": {
+      "MAE": 0.6847755734359516,
+      "coverage": 0.84472049689441,
+      "n_answered": 3400,
+      "n_total": 4025
+    },
+    "baseline_global_mean": {
+      "MAE": 0.8695258507225084,
+      "coverage": 1.0,
+      "n_total": 4025
+    },
+    "baseline_movie_mean": {
+      "MAE": 0.8086318237762876,
+      "coverage": 1.0,
+      "n_total": 4025
+    }
+  },
+  "decline": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "cases": [
+      {
+        "case": "recommend/unknown-user",
+        "should_decline": true,
+        "did_decline": true
+      },
+      {
+        "case": "recommend/known-user",
+        "should_decline": false,
+        "did_decline": false
+      },
+      {
+        "case": "opinion/fake:The Nonexistent",
+        "should_decline": true,
+        "did_decline": true
+      },
+      {
+        "case": "opinion/fake:Zzzqqq Not A Fi",
+        "should_decline": true,
+        "did_decline": true
+      },
+      {
+        "case": "opinion/fake:My Imaginary Se",
+        "should_decline": true,
+        "did_decline": true
+      },
+      {
+        "case": "opinion/real:Pulp Fiction",
+        "should_decline": false,
+        "did_decline": false
+      },
+      {
+        "case": "opinion/real:Toy Story",
+        "should_decline": false,
+        "did_decline": false
+      },
+      {
+        "case": "opinion/real:Forrest Gump",
+        "should_decline": false,
+        "did_decline": false
+      },
+      {
+        "case": "opinion/unknown-user",
+        "should_decline": true,
+        "did_decline": true
+      }
+    ]
+  }
+}

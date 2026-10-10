@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# scratch / throwaway
+eval_smoke.json
+*.log
+.DS_Store
+.ipynb_checkpoints/
